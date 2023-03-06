@@ -1,0 +1,78 @@
+.headstyle {
+  color: black;
+  background: lightgray;
+  padding: 10px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.texting {
+  text-align: center;
+  background: #EDEDED;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.container-input{
+  margin-left: 10px;
+  border-radius: 4px;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.container-input2{
+  margin-left: 25px;
+  border-radius: 4px;
+}
+
+.board, .board2 {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 1335px;
+  background-color: white;
+  color: black;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.botao {
+  background-color: blue;
+  color: white;
+  padding: 12px 5px;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+.botao:hover{
+  background-color: #07B7F5;
+  color: black;
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  border-color: #CCC;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .board, .board2 {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+

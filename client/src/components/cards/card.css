@@ -1,0 +1,28 @@
+.card-container {
+    width: 1335px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 4px;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: #F58EFF;
+  }
+  
+  .card-title,
+  .card-subtitle {
+    display: inline;
+    margin-right: 80px; 
+  }
+  
+  .card-subtitle {
+    margin-top: 5px;
+  }
+  
+  .card-container:hover {
+    background-color: aqua;
+  }
+
+  .card-text {
+    line-height: 0; 
+  }
